@@ -58,10 +58,17 @@ document.addEventListener('DOMContentLoaded', () => {
         const originalText = btnSubmit.innerHTML;
         btnSubmit.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Enviando...';
 
-        setTimeout(() => {
-            alert('¡Mensaje enviado con éxito! (Simulación Frontend)');
-            btnSubmit.innerHTML = originalText;
+        fetch('https://formspree.io/f/xojbovvb', {
+            method: 'POST',
+            body: new FormData(e.target),
+            headers: { 'Accept': 'application/json' }
+        }).then(() => {
+            alert('¡Mensaje enviado con éxito!');
             e.target.reset();
-        }, 1000);
+        }).catch(() => {
+            alert('Ocurrió un error al enviar el mensaje.');
+        }).finally(() => {
+            btnSubmit.innerHTML = originalText;
+        });
     });
 });
