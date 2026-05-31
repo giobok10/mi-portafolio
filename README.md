@@ -4,7 +4,7 @@ Este repositorio contiene el código fuente de mi portafolio profesional. El pro
 
 ---
 
-## 🚀 [Ver Demo en Vivo](https://tu-link-aqui.vercel.app)
+## 🚀 [Ver Demo en Vivo](https://gmendez-portfolio.vercel.app/)
 
 ## 📱 Vista Previa
 
@@ -38,4 +38,4 @@ Si estás interesado en mi perfil técnico o en colaborar en proyectos de ingeni
 *   **LinkedIn:** [linkedin.com/in/gio-boj/](https://www.linkedin.com/in/gio-boj/)
 
 ---
-*© 2026 Guillermo Méndez. Todos los derechos reservados.*# mi-portafolio
+*© 2026 Guillermo Méndez. Todos los derechos reservados.*
