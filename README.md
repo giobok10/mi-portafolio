@@ -4,7 +4,7 @@ Este repositorio contiene el código fuente de mi portafolio profesional. El pro
 
 ---
 
-## 🚀 [Ver Demo en Vivo](https://gmendez-portfolio.vercel.app/)
+## 🚀 [Ver Demo en Vivo](https://g-mendez.vercel.app/)
 
 ## 📱 Vista Previa
 
